@@ -1,2 +1,0 @@
-/usr/bin/ar qc libWSCHATNetwork.a  CMakeFiles/WSCHATNetwork.dir/src/TCPClient.cpp.o CMakeFiles/WSCHATNetwork.dir/src/TCPConnection.cpp.o CMakeFiles/WSCHATNetwork.dir/src/TCPServer.cpp.o
-/usr/bin/ranlib libWSCHATNetwork.a
