@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/boost-lib-websocket/WSCHATClient/main.cpp
+WSCHATNetwork/TCPClient.h
+-
+iostream
+-
+string
+-
+thread
+-
+
+WSCHATNetwork/include/WSCHATNetwork/TCPClient.h
+boost/asio.hpp
+-
+boost/property_tree/ptree.hpp
+-
+boost/property_tree/json_parser.hpp
+-
+queue
+-
+ctime
+-
+

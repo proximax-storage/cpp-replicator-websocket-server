@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/boost-lib-websocket/WSCHATServer/main.cpp
+WSCHATNetwork/TCPServer.h
+-
+iostream
+-
+
+WSCHATNetwork/include/WSCHATNetwork/TCPConnection.h
+boost/asio.hpp
+-
+memory
+-
+queue
+-
+
+WSCHATNetwork/include/WSCHATNetwork/TCPServer.h
+WSCHATNetwork/TCPConnection.h
+-
+boost/asio.hpp
+-
+string
+-
+optional
+-
+unordered_set
+-
+
